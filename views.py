@@ -1,0 +1,118 @@
+from django.shortcuts import render
+from ravan.models import Basic_Information
+from ravan.models import Destination
+
+
+def index(request):
+    BF =Basic_Information.objects.all()
+    return render(request,'index.html', {'BF' : BF})
+def register(request):
+    return render(request,'register.html')
+def about_us(request):
+    return render(request,'about_us.html')
+def add_streaming(request):
+    return render(request,'add_streaming.html')
+def all_instructor(request):
+    return render(request,'all_instructor.html')
+def apply_job(request):
+    return render(request,'apply_job.html')
+def base(request):
+    return render(request,'base.html')
+def blog_single_view(request):
+    return render(request,'blog_single_view.html')
+def career(request):
+    return render(request,'career.html')
+def certification_center(request):
+    return render(request,'certification_center.html')
+def certification_center_form(request):
+    return render(request,'certification_center_form.html')
+def certification_test_result(request):
+    return render(request,'certification_test_result.html')
+def certification_test_view(request):
+    return render(request,'certification_test_view.html')
+def checkout_membership(request):
+    return render(request,'checkout_membership.html')
+def coming_soon(request):
+    return render(request,'coming_soon.html')
+def company_details(request):
+    return render(request,'company_details.html')
+def contact_us(request):
+    return render(request,'contact_us.html')
+def course_detail_view(request):
+    return render(request,'contact_detail_view.html')
+def create_new_course(request):
+    return render(request,'create_new_course.html')
+def error_404(request):
+    return render(request,'error_404.html')
+def explore(request):
+    return render(request,'explore.html')
+def feedback(request):
+    return render(request,'feedback.html')
+def forgot_password(request):
+    return render(request,'forgot_password.html')
+def help(request):
+    return render(request,'help.html')
+def thank_you(request):
+    return render(request,'thank_you.html')
+def terms_of_use(request):
+    return render(request,'terms_of_use.html')
+def sitemap(request):
+    return render(request,'sitemap.html')
+def sign_up(request):
+    return render(request,'sign_up.html')
+def sign_up_steps(request):
+    return render(request,'sign_up_steps.html')
+def sign_in(request):
+    return render(request,'sign_in.html')
+def shopping_cart(request):
+    return render(request,'shopping_cart.html')
+def setting(request):
+    return render(request,'setting.html')
+def search_result(request):
+    return render(request,'search_result.html')
+def saved_courses(request):
+    return render(request,'saved_courses.html')
+def report_history(request):
+    return render(request,'report_history.html')
+def press(request):
+    return render(request,'press.html')
+def our_blog(request):
+    return render(request,'our_blog.html')
+def my_instructor_profile_view(request):
+    return render(request,'my_instructor_profile_view.html')
+def membership(request):
+    return render(request,'membership.html')
+def login(request):
+    return render(request,'login.html')
+def live_streams(request):
+    return render(request,'live_streams.html')
+def live_output(request):
+    return render(request,'live_output.html')
+def invoice(request):
+    return render(request,'invoice.html')
+def instructor_verification(request):
+    return render(request,'instructor_verification.html')
+def instructor_statements(request):
+    return render(request,'instructor_statements.html')
+def instructor_profile_view(request):
+    return render(request,'instructor_profile_view.html')
+def instructor_payout(request):
+    return render(request,'instructor_payout.html')
+def instructor_notifications(request):
+    return render(request,'instructor_notifications.html')
+def instructor_my_certificates(request):
+    return render(request,'instructor_my_certificates.html')
+def instructor_messages(request):
+    return render(request,'instructor_messages.html')
+def instructor_earning(request):
+    return render(request,'instructor_earning.html')
+def instructor_dashboard(request):
+    return render(request,'instructor_dashboard.html')
+def instructor_courses(request):
+    return render(request,'instructor_courses.html')
+def instructor_analyics(request):
+    return render(request,'instructor_analyics.html')
+def instructor_all_reviews(request):
+    return render(request,'instructor_all_reviews.html')
+def certification_start_form(request):
+    return render(request,'certification_start_form.html')
